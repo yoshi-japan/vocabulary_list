@@ -1,0 +1,6 @@
+the default export format is UTF-8, which will make Chinese displayed as garbled in Excel.
+Temporary solution:
+1. Change the suffix "CSV" of the exported CSV file to "TXT"
+2. Open the txt file with Notepad
+3. in Notepad - file - save as - then change code "UTF-8" to "ANSI"
+4. Change the suffix from "TXT" to "CSV" , and it will display normally
